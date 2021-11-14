@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+header {
+    display: inline;
+ }
+
+.header {
+    font-size: 20px;
+    padding: 60px;
+    background :linear-gradient( #20B2AA, #7B68EE);
+    text-align: center;
+    color: white;
+ }
+
+nav{
+    background-color: #7B68EE;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+
+ }
+
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+ }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #E8E8E8;
+    margin: 0;
+    padding: 0;
+ }
+
+ main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+h2, h3{
+    color: turquoise;
+    text-align: center;
+}
+
+.profile{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    overflow: auto;
+}
+
+.profile img {
+    height: 250px;
+    width: 200px;
+    object-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ }
+
+ #content{
+    float: left;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+ }
+
+ article{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+    
+ }
+
+.article p{
+    margin: 10px;
+    text-align: justify;
+ }
+
+.article img{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;  
+}
+
+.tabel{
+    text-align: left;
+    margin: 5px;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+footer{
+    padding: 20px;
+    color: white;
+    background :linear-gradient( #7B68EE, #20B2AA);
+    text-align: center;
+    font-weight: bold;
+    max-width: width auto;;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .article img{
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ html {
+    scroll-behavior: smooth;
+  }
